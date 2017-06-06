@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Track</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <form>
+        <div class="row">
+          <div class="twelve columns">
+            <label for="originStation">Origin</label>
+            <input class="u-full-width" type="text" placeholder="Enter origin station" id="origin-input">
+
+            <div class="twelve columns closest-stations" id="closest-stations">
+              <!-- content added dynamically -->
+            </div>
+          
+            <label for="destinationStation">Destination</label>
+            <input class="u-full-width"destinationStation" type="text" placeholder="Enter destination station" id="destination-input">
+          </div>
+
+          <div class="twelve columns closest-stations hidden" id="closest-stations">
+           <!-- content added dynamically -->
+          </div>
+          <input class="u-full-width" type="submit">
+      </form>
+    </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

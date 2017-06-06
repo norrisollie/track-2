@@ -1,0 +1,26 @@
+/* helpers */
+body {
+	font-family: "New Rail Alphabet";
+}
+
+button {
+	font-size: 12px
+}
+
+.hidden {
+	display: none;
+}
+
+.nr-logo {
+	display: inline-block;
+	width: 19px;
+	height: 10px;
+	padding-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("/Users/ollienorris/Documents/Projects/final-track/img/nr.svg");
+}
+
+.closest-stations-button {
+	margin-right: 5px;
+}
